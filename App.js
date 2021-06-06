@@ -38,6 +38,15 @@ import BoxEasing_9 from './Animation/Animation/BoxEasing_9/BoxEasing_9';
 import BoxSpring_10 from './Animation/Animation/BoxSpring_10/BoxSpring_10';
 import BackgroundColorChange_1 from './Animation/Animation+Gesture/BackgroundColorChange_1/BackgroundColorChange_1';
 import MoveBoxGestureDecay_2 from './Animation/Animation+Gesture/MoveBoxGestureDecay_2/MoveBoxGestureDecay_2';
+import AddExtraAnimation_3 from './Animation/Animation+Gesture/AddExtraAnimation_3/AddExtraAnimation_3';
+import DivideAnimationLength_4 from './Animation/Animation+Gesture/DivideAnimationLength_4/DivideAnimationLength_4';
+import MultiplyAnimationLength_5
+  from './Animation/Animation+Gesture/MultiplyAnimationLength_5/MultiplyAnimationLength_5';
+import ParallelAnimation_1 from './Animation/CombinationAnimations/ParallelAnimation_1/ParallelAnimation_1';
+import SequenceAnimation_2 from './Animation/CombinationAnimations/SequenceAnimation_2/SequenceAnimation_2';
+import StaggerAnimation_3 from './Animation/CombinationAnimations/StaggerAnimation_3/StaggerAnimation_3';
+import DelayBetweenDiffAnimation_4
+  from './Animation/CombinationAnimations/DelayBetweenDiffAnimation_4/DelayBetweenDiffAnimation_4';
 
 const App = () => {
   return (
@@ -55,7 +64,14 @@ const App = () => {
 
 
       {/*<BackgroundColorChange_1/>*/}
-      <MoveBoxGestureDecay_2/>
+      {/*<MoveBoxGestureDecay_2/>*/}
+      {/*<AddExtraAnimation_3/>*/}
+      {/*<DivideAnimationLength_4/>*/}
+      {/*<MultiplyAnimationLength_5/>*/}
+      {/*<ParallelAnimation_1/>*/}
+      {/*<SequenceAnimation_2/>*/}
+      {/*<StaggerAnimation_3/>*/}
+      <DelayBetweenDiffAnimation_4/>
     </SafeAreaView>
   );
 };
