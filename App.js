@@ -47,6 +47,12 @@ import SequenceAnimation_2 from './Animation/CombinationAnimations/SequenceAnima
 import StaggerAnimation_3 from './Animation/CombinationAnimations/StaggerAnimation_3/StaggerAnimation_3';
 import DelayBetweenDiffAnimation_4
   from './Animation/CombinationAnimations/DelayBetweenDiffAnimation_4/DelayBetweenDiffAnimation_4';
+import TranslateOpacityInterpolate_1
+  from './Animation/Interpolation4/TranslateOpacityInterpolate_1/TranslateOpacityInterpolate_1';
+import BackgroundColorInterpolate_2
+  from './Animation/Interpolation4/BackgroundColorInterpolate_2/BackgroundColorInterpolate_2';
+import RotationTypesInterpolate_3
+  from './Animation/Interpolation4/RotationTypesInterpolate_3/RotationTypesInterpolate_3';
 
 const App = () => {
   return (
@@ -71,7 +77,15 @@ const App = () => {
       {/*<ParallelAnimation_1/>*/}
       {/*<SequenceAnimation_2/>*/}
       {/*<StaggerAnimation_3/>*/}
-      <DelayBetweenDiffAnimation_4/>
+      {/*<DelayBetweenDiffAnimation_4/>*/}
+
+
+      {/*<TranslateOpacityInterpolate_1/>*/}
+      {/*<BackgroundColorInterpolate_2/>*/}
+      <RotationTypesInterpolate_3/>
+
+
+
     </SafeAreaView>
   );
 };
