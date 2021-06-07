@@ -53,6 +53,8 @@ import BackgroundColorInterpolate_2
   from './Animation/Interpolation4/BackgroundColorInterpolate_2/BackgroundColorInterpolate_2';
 import RotationTypesInterpolate_3
   from './Animation/Interpolation4/RotationTypesInterpolate_3/RotationTypesInterpolate_3';
+import Point99Cliff from './Animation/AnimationTechnique_5/Point99Cliff/Point99Cliff';
+import CornerBox from './Animation/AnimationTechnique_5/CornerBox/CornerBox';
 
 const App = () => {
   return (
@@ -82,8 +84,11 @@ const App = () => {
 
       {/*<TranslateOpacityInterpolate_1/>*/}
       {/*<BackgroundColorInterpolate_2/>*/}
-      <RotationTypesInterpolate_3/>
+      {/*<RotationTypesInterpolate_3/>*/}
 
+
+      {/*<Point99Cliff/>*/}
+      <CornerBox/>
 
 
     </SafeAreaView>
